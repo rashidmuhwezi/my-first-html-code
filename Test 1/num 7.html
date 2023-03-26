@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" href="index.css" >
+<head>
+   
+</head>
+<body>
+  <div onclick = "changeFontColor()" id = "words" >  
+   <h2> TEST ONE.</h2>
+   <div id = "fonts"> Click the to change the color of font inside the page.</div>
+   <p>My name is rashid and i love to code and with the help of Hajjat Khadijah i will make it.</p>
+</div>
+   <script>
+      function changeFontColor() {
+         let p = document.getElementById("words");
+         let color = p.style.color;
+         if (color == "red") {
+            p.style.color = 'green';
+         }
+         else {
+            p.style.color = 'red';
+         }
+      }
+   </script>
+</body>
+</html>

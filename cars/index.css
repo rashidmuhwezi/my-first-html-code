@@ -1,0 +1,61 @@
+
+.section {
+    border-radius: 5px;
+    border-style: ridge;
+    color: antiquewhite;
+    height: 70rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.topper {
+    background-color: rgb(172, 10, 10);
+    background-size: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 17px;
+    margin:0.1rem 0.1rem;
+    font-weight: bold;
+}
+.auto { 
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    font-size: 4rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.prin {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: end;
+    margin-right: 1rem;
+    font-weight: lighter;
+}
+.img {
+    border-radius: 50%;
+}
+.cdx {
+    font-size: xx-large;
+}
+.information {
+    background-color: rgb(15, 11, 11);
+    padding: 0.2rem;
+}
+.pic {
+    border-radius: 0%;
+    background-size: cover;
+    width: 83rem;
+    height: 54.8rem;
+    position: relative;
+}
+.fund {
+    padding: 2px;
+    font-weight: 100;
+}
+.circle {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    position: absolute;
+}

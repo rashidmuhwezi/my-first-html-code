@@ -1,0 +1,15 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.section {
+    background-image: url(../../food.png);
+    border-image: stretch;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #ddd;
+    height: 70rem;
+}
+.top {
+    background-color: rgb(15, 15, 63);
+}

@@ -1,0 +1,27 @@
+body{
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .section{
+      background-color: rgb(91, 170, 0);
+      height: 100%;
+      margin: 5rem 2rem;
+      padding: 2rem;border-style: ridge;
+  
+  }
+  .headings{
+      background-color: gold;
+      margin: -3.7rem -2rem;
+  
+  }
+  .topper{
+      font-size: xx-large;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .slogan{
+      margin-top: -1rem;
+  }
+  .information {
+      color: aliceblue;
+      margin-top: 4rem;
+  }
